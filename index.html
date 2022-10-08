@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div id="error"></div>
+    <form action="/" method="get" id="form">
+        <div class="form" >
+            <div class="one">
+                <label for="firstname" class="lb1">Firstname</label>
+                <br>
+                <input type="text" name="firstname" placeholder="Enter firstname" id="firstname">
+                <br>
+                <label for="">Disallow digits and special characters</label>
+            </div>
+            <div class="two">
+                <label for="lastname" class="lb1">Lastn name</label>
+                <br>
+                <input type="text" name="lastname" placeholder="Enter lastname" id="lastname">
+                <br>
+                <label for="">Disallow digits and special characters</label>
+            </div>
+            <div class="three">
+                <label for="addres" class="lb1">Adress</label>
+                <br>
+                <input type="text" name="address" class="addr" id="address" placeholder="Enter address">
+                <label for="">35 character limit)</label>
+            </div>
+            <div class="four">
+                <select name="" id="gender">
+                <option value="gender" id="gender">Gender</option>
+                <option value="male" id="gender">Male</option>
+                <option value="female" id="gender">Female</option>
+                </select>
+            </div>
+            <textarea name="" id="" cols="50" rows="5" class="five"></textarea>
+            <button type="submit" class="btn btn-primary" id="save">submit</button>
+            <a href="table.html">Table</a>
+    </div>
+    </form>
+
+
+    <script src="fr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>

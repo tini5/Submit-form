@@ -1,0 +1,9 @@
+.tb{ 
+    border: 1px solid #0c27c1;
+    width: 650px;
+    height: auto;
+    background-color: #ffffff;
+}
+th, td{
+    border: 1px solid #0cb9c1;
+}
